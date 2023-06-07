@@ -5,8 +5,9 @@ import { useNavigation } from '@react-navigation/native';
 export default function Home(){
     const navigation = useNavigation();
     function irSobre(){
-        navigation.navigate('Sobre', {nome: 'Adielson', email: 'macacolouco@gmail.com' })
+        navigation.navigate('Sobre', {nome: 'Medeiros', email: 'macacolouco@gmail.com' })
     }
+
 
     return(
         <View>
